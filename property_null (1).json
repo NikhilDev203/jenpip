@@ -1,0 +1,159 @@
+{
+  "credentialsid": "",
+  "templateName": null,
+  "technology": ".NET",
+  "cloud": "Azure",
+  "account_id": null,
+  "product_name": null,
+  "project_name": null,
+  "build_tool": "MSBuild",
+  "workspace": "",
+  "repository": {
+    "repo_tool": "github",
+    "username": "",
+    "password": "",
+    "branch_name": "",
+    "clone_url": "",
+    "name": ""
+  },
+  "groups": [
+    {
+      "group_name": "Build",
+      "branches": [
+        ""
+      ],
+      "tools": ""
+    },
+    {
+      "group_name": "Db_migration",
+      "branches": [
+        ""
+      ],
+      "tools": ""
+    },
+    {
+      "group_name": "Code_coverage",
+      "branches": [
+        ""
+      ],
+      "tools": ""
+    },
+    {
+      "group_name": "Package",
+      "branches": [
+        ""
+      ],
+      "tools": ""
+    },
+    {
+      "group_name": "Sat",
+      "branches": [
+        ""
+      ],
+      "tools": "SAT_tool"
+    },
+    {
+      "group_name": "Application_infrastructure",
+      "branches": [
+        ""
+      ],
+      "tools": "shell"
+    },
+    {
+      "group_name": "Application_tools",
+      "branches": [
+        ""
+      ],
+      "tools": "shell"
+    },
+    {
+      "group_name": "Application_tool_configuration",
+      "branches": [
+        ""
+      ],
+      "tools": "shell"
+    },
+    {
+      "group_name": "Application_installation",
+      "branches": [
+        ""
+      ],
+      "tools": "shell"
+    },
+    {
+      "group_name": "Application_configuration",
+      "branches": [
+        ""
+      ],
+      "tools": "shell"
+    }
+  ],
+  "build_configuration": {
+    "build_tool": "MSBuild",
+    "build_file": "",
+    "args": ""
+  },
+  "db_migration_configuration": {
+    "change_log_file_path": "",
+    "liquibase_credentials_id": "",
+    "database_engine": "",
+    "default_schema_name": "",
+    "database_url": "",
+    "context": "",
+    "tag_on_successful_build": "",
+    "test_rollbacks": ""
+  },
+  "code_coverage_configuration": {
+    "projectkey": "",
+    "projectname": "",
+    "projectversion": "",
+    "additionalarguments": "",
+    "windowsbatchcommand": ""
+  },
+  "package_configuration": {
+    "protocol": "",
+    "nexus_version": "",
+    "credential_id": "",
+    "groupid": "",
+    "version": "",
+    "repository": "",
+    "artifactid": "",
+    "type": "",
+    "classifier": "",
+    "file": ""
+  },
+  "sat_configuration": {
+    "parametername": "",
+    "parametervalue": "",
+    "nodename": "",
+    "defaultnode": "[master]",
+    "allowednodes": "",
+    "command": "",
+    "recipient_email_id(commaseperatedlistofemailids)": ""
+  },
+  "application_infrastructure_configuration": {
+    "stagename": "",
+    "label": "",
+    "executeshell": ""
+  },
+  "application_tools_configuration": {
+    "stagename": "",
+    "remoteshell": "",
+    "command": ""
+  },
+  "application_tool_configuration_configuration": {
+    "stagename": "",
+    "remoteshell": "",
+    "command": ""
+  },
+  "application_installation_configuration": {
+    "stagename": "",
+    "remoteshell": "",
+    "command": ""
+  },
+  "application_configuration_configuration": {
+    "stagename": "",
+    "remoteshell": "",
+    "command": ""
+  }
+}
